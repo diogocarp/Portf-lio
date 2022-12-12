@@ -2,15 +2,17 @@ import Avatar from '../images/perfil.jpg'
 import '../styles/components/sidebar.sass'
 import InformationContainer from './InformationContainer'
 import SocialNetworks from './SocialNetworks'
+import '../styles/components/buttons.css'
+import cv from '../assets/CV Diogo.pdf'
  const Sidebar = () => {
 
     return(
         <aside id='sidebar'>
             <img src={Avatar} alt='Diogo Carpinelli'/>
-            <p className="title">Full Stack Developer</p>
+            <p className="title">Desevolvedor Full Stack</p>
             <SocialNetworks/>
             <InformationContainer/>
-            <a href="" className="btn">
+            <a href='https://drive.google.com/file/d/1H5c4HbqXZZZyzrBhRr6LkGxjpwr_5w5t/view?usp=share_link' className="btn">
                 Download curriculo
             </a>
         </aside>

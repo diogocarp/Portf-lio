@@ -1,0 +1,4 @@
+.btn-bt:hover{
+    background-image: linear-gradient(90deg, #a31919 0%, #70171e 100%);
+}
+.btn:hover{background-image: linear-gradient(90deg, #a31919 0%, #70171e 100%);}

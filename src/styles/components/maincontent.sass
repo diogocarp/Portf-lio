@@ -2,12 +2,15 @@
 @use '../mixins'
 
 #main-content
-    background-color: variables.$bg-color
+    
     flex: 2 1 0
-    border-radius: variables.$conatainer-border-radius
-    padding: 3rem
+   
 
     section
+        background-color: variables.$bg-color
+        border-radius: variables.$conatainer-border-radius
+        padding: 3rem
+        margin: 1rem
         display: flex
         flex-direction: column
     
@@ -21,3 +24,13 @@
 
         &:after
             @include mixins.gradient-border
+        
+    p
+        color: variables.$text-color
+        margin-bottom: 1rem
+        line-height: 1.4rem
+        
+    .btn 
+        @include mixins.btn
+        align-self: start
+
