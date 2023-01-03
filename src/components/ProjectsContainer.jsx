@@ -4,7 +4,7 @@ const ProjectsContainer = () => {
             <h2>Projetos</h2>
             <p>Alguns dos meus projetos desenvolvidos para clientes e para desenvolver meu conhecimento com novas linguagens e frameworks.</p>
             <a href="https://github.com/diogocarp" className="btn">
-                Ver Projeto
+                Ver Projetos
             </a>
         </section>
     )
