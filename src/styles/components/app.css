@@ -1,0 +1,13 @@
+@media only screen and (max-width:600px) {
+    h1 {
+       font-size: 4rem !important;
+       
+    }
+}
+
+@media only screen and (max-width:400px) {
+    h1 {
+       width: 300px !important;
+       
+    }
+}

@@ -17,6 +17,7 @@ import {
 } from "react-icons/di";
 import {SiTypescript} from 'react-icons/all'
 import "../styles/components/technologiescontainer.sass";
+import '../styles/components/technologies.css'
 
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },
@@ -37,7 +38,7 @@ const technologies = [
 const TechnologiesContainer = () => {
   return (
     <section className="technologies-container">
-      <h2>Tecnologias</h2>
+      <h2>Linguagens e Tecnologias</h2>
       <div className="technologies-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>

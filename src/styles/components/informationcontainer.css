@@ -1,0 +1,8 @@
+@media only screen and (max-width:600px) {
+    .info-card p{font-size: small;}
+}
+
+@media only screen and (max-width:300px) {
+    .info-card p{font-size: 10px;}
+    p{font-size: small;}
+}

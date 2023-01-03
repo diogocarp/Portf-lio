@@ -2,8 +2,6 @@ import Avatar from '../images/perfil.jpg'
 import '../styles/components/sidebar.sass'
 import InformationContainer from './InformationContainer'
 import SocialNetworks from './SocialNetworks'
-import '../styles/components/buttons.css'
-import cv from '../assets/CV Diogo.pdf'
  const Sidebar = () => {
 
     return(

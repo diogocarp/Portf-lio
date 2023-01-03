@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .technology-info{
+        display: none !important;
+        }
+    }
+
+    @media only screen and (max-width: 430px) {
+        .technology-card{
+            width: 100% !important;;
+            }
+        }

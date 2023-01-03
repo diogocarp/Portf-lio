@@ -1,5 +1,4 @@
 import '../styles/components/socialnetworks.sass'
-import '../styles/components/buttons.css'
 import {FaLinkedinIn, FaGithub, FaInstagram} from 'react-icons/fa'
 
 const socialNetworks = [
