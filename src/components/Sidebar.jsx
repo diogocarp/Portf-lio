@@ -10,7 +10,7 @@ import SocialNetworks from './SocialNetworks'
             <p className="title">Desevolvedor Full Stack</p>
             <SocialNetworks/>
             <InformationContainer/>
-            <a href='https://drive.google.com/file/d/1H5c4HbqXZZZyzrBhRr6LkGxjpwr_5w5t/view?usp=share_link' className="btn">
+            <a href='https://drive.google.com/file/d/1C6rvp5nkHmfArq_GZYGooO90QD_y8H4V/view?usp=sharing' className="btn">
                 Download curriculo
             </a>
         </aside>
