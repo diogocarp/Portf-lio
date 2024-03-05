@@ -4,6 +4,7 @@ import GameRoom from '../images/GameRoom.png'
 import EducaTec from '../images/EducaTec.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '../styles/components/projectscontainer.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Arrow = ({ direction, onClick }) => {
@@ -38,7 +39,7 @@ const ProjectsContainer = () => {
                 </div>
                 
                 <div>
-                <iframe width="600" height="315" src="https://www.youtube.com/embed/vNwbiXtZVnM?si=tp_DhUv7X3oxiuIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/vNwbiXtZVnM?si=tp_DhUv7X3oxiuIn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p>Projeto de uma aplicação mobile para o sistema de gerenciamento de armazém, utilizei React Native</p>
                 </div>
                 <div>
@@ -50,6 +51,7 @@ const ProjectsContainer = () => {
                 Ver Projetos
             </a>
         </section>
+        
     );
 }
 
